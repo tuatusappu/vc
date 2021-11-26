@@ -21,7 +21,6 @@ async def on_stream_end(client: PyTgCalls, update: Update) -> None:
     else:
         await pytgcalls.change_stream(
             chat_id, 
-            InputStream(
             InputAudioStream(
                 queues.get(chat_id)["file"],
             ),
