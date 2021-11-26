@@ -14,20 +14,20 @@ async def cbhelps(_, query: CallbackQuery):
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 
-**🏷 Common Commands For Pratheek Music Bot.
+**🏷 Common Commands For [Pratheek Music Bot](https://t.me/pratheek06).
 
-•`/play`<song name> - To play song from. YouTube 
-•`/audio` - Reply to audio file/YouTube link to play
-•`/pause` - To pause currently stream
-•`/resume` - To resume currently paused
-•`/skip` or `/next` - to change song(work only  if another song is in queue) 
-•`/end` or `/stop` - stop/ends music Stream
-•`/refresh` or `/restart` - to restart Bot Server(only for heroku) 
-
+• `/play`<song name> - To play song from. YouTube 
+• `/audio` - Reply to audio file/YouTube link to play
+• `/pause` - To pause currently stream
+• `/resume` - To resume currently paused
+• `/skip` or `/next` - to change song(work only  if another song is in queue) 
+• `/end` or `/stop` - stop/ends music Stream
+• `/refresh` or `/restart` - to restart Bot Server(only for heroku) 
+          reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT"),
-                    InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/aboutpratheek")
+                    InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/Pratheek_bots")
                 ],
                 [
                     InlineKeyboardButton(
