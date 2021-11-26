@@ -51,7 +51,7 @@ async def start(_, message: Message):
                         "📣 Updates 📣", url="https://t.me/Pratheek_Bots")
                 ],[
                     InlineKeyboardButton(
-                        "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭🧰", url="https://telegra.ph/text-10-24"
+                        "📚 Commands", callback_data="cbcmds")
                     )
                 ]
             ]
