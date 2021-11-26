@@ -48,11 +48,10 @@ async def start(_, message: Message):
                        "🗣️ Support 🗣️", url="https://t.me/DecodeSupport"
                     ),
                     InlineKeyboardButton(
-                        "📣 Updates 📣", url="https://t.me/DeecodeBots"
-                    )
+                        "📣 Updates 📣", url="https://t.me/DeecodeBots")
                 ],[
                     InlineKeyboardButton(
-                        "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭🧰", url="https://telegra.ph/text-10-24")
+                        "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭🧰", url="https://telegra.ph/text-10-24"
                     )
                 ]
             ]
