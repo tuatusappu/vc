@@ -22,12 +22,12 @@ __× First Add Me To Your Group..
 • `/resume` - To resume currently paused
 • `/skip` or `/next` - to change song(work only  if another song is in queue) 
 • `/end` or `/stop` - stop/ends music Stream
-• `/refresh` or `/restart` - to restart Bot Server(only for heroku) 
-          reply_markup=InlineKeyboardMarkup(
+• `/refresh` or `/restart` - to restart Bot Server(only for heroku)""",
+        reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT"),
-                    InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/Pratheek_bots")
+                    InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/Pratheek_Bots")
                 ],
                 [
                     InlineKeyboardButton(
