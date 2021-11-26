@@ -51,7 +51,7 @@ async def start(_, message: Message):
                         "📣 Updates 📣", url="https://t.me/Pratheek_Bots")
                 ],[
                     InlineKeyboardButton(
-                        "📚 Commands", callback_data="cbcmds")
+                        "📚 Commands", callback_data="cbcmds"
                     )
                 ]
             ]
