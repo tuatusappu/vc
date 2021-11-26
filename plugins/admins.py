@@ -20,7 +20,7 @@ from pytgcalls.types.input_stream import InputStream
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg", 
+                             photo="https://telegra.ph/file/562ebb6a294defca1a17d.jpg", 
                              caption="**⏸ Music Paused.\n use /resume**"
     )
 
@@ -31,7 +31,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg",
+                             photo="https://telegra.ph/file/562ebb6a294defca1a17d.jpg",
                              caption="**▶️ Music Resumed.\n use /pause**"
     )
 
@@ -47,7 +47,7 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg",
+                             photo="https://telegra.ph/file/562ebb6a294defca1a17d.jpg",
                              caption="❌ **Stopped Streaming\n use /play for new song**"
     )
 
@@ -100,6 +100,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg",
+                              photo="https://telegra.ph/file/562ebb6a294defca1a17d.jpg",
                               caption="**Reloaded\n Admin List updated**"
     )
