@@ -31,6 +31,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
+                             photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg",
                              caption="**▶️ Music Resumed.\n use /pause**"
     )
 
@@ -46,6 +47,7 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
+                             photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg",
                              caption="❌ **Stopped Streaming\n use /play for new song**"
     )
 
