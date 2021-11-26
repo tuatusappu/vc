@@ -19,8 +19,7 @@ from pytgcalls.types.input_stream import InputStream
 @authorized_users_only
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_photo(
-                             photo="https://telegra.ph/file/562ebb6a294defca1a17d.jpg", 
+    await message.reply_text(
                              caption="**⏸ Music Paused.\n use /resume**"
     )
 
@@ -30,8 +29,7 @@ async def pause(_, message: Message):
 @authorized_users_only
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_photo(
-                             photo="https://telegra.ph/file/562ebb6a294defca1a17d.jpg",
+    await message.reply_text(
                              caption="**▶️ Music Resumed.\n use /pause**"
     )
 
