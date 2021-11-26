@@ -14,30 +14,16 @@ async def cbhelps(_, query: CallbackQuery):
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 
-**🏷 Common Commands.**
+**🏷 Common Commands For Pratheek Music Bot.
 
-• `/play` - Song Name : __Plays Via Youtube__
-• `/dplay` - Song Name : __Play Via Deezer__
-• `/splay` - Song Name : __Play Via Jio Saavn__
-• `/playlist` - __Show now playing list__
-• `/current` - __Show now playing__
+•`/play`<song name> - To play song from. YouTube 
+•`/audio` - Reply to audio file/YouTube link to play
+•`/pause` - To pause currently stream
+•`/resume` - To resume currently paused
+•`/skip` or `/next` - to change song(work only  if another song is in queue) 
+•`/end` or `/stop` - stop/ends music Stream
+•`/refresh` or `/restart` - to restart Bot Server(only for heroku) 
 
-• `/song` - Song Name : __Get The Song From YouTube__
-• `/vid` - Video Name : __Get The Video From YouTube__
-• `/deezer` - song name : __download songs you want quickly via deezer__
-• `/saavn` - song name : __download songs you want quickly via saavn__
-• `/search` - YouTube Title : __(Get YouTube Search Query)__
-
-**🏷 Group Admin Commands.**
-
-• `/skip` : __Skips Music__
-• `/pause` : __Pause Playing Music__
-• `/resume` : __Resume Playing Music__
-• `/end` : __Stops playing Music__
-• `/reload` : __Reloads Admin List__
-• `/userbotjoin` : __Assistant Joins The Group__
-• `/userbotleave` : __Assistant Leaves From The Group.__""",
-        reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT"),
