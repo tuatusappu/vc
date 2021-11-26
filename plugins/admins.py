@@ -100,5 +100,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
+                              photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg",
                               caption="**Reloaded\n Admin List updated**"
     )
