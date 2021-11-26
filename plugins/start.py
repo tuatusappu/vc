@@ -42,7 +42,7 @@ async def start(_, message: Message):
                 [
                     InlineKeyboardButton(
                         "➕Summon Me➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
                   ],[
                     InlineKeyboardButton(
                        "🗣️ Support 🗣️", url="https://t.me/DecodeSupport"
