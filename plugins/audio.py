@@ -63,7 +63,7 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{QUE_IMG}",
         reply_markup=keyboard,
-        caption=f"#⃣ Yᴏᴜʀ Rᴇǫᴜᴇsᴛᴇᴅ Sᴏɴɢ Wᴀs Aᴅᴅᴇᴅ Tᴏ  *Qᴜᴇᴜᴇ* Aᴛ Pᴏsɪᴛɪᴏɴ {position}!\n\n⚡𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞 𝗔.𝗜 ") 
+        caption=f"#⃣ Yᴏᴜʀ Rᴇǫᴜᴇsᴛᴇᴅ Sᴏɴɢ Wᴀs Aᴅᴅᴇᴅ Tᴏ  *Qᴜᴇᴜᴇ* Aᴛ Pᴏsɪᴛɪᴏɴ {position}!\n\n⚡ __𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞 𝗔.𝗜__") 
         return await lel.delete()
     else:
         await callsmusic.pytgcalls.join_group_call(
