@@ -323,7 +323,7 @@ async def play(_, message: Message):
             return await lel.edit(
                 "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @Pratheek_Bots**"
             )
-        await lel.edit("⚡️")
+        await lel.edit("**Wait Bruh 😎**")
         query = message.text.split(None, 1)[1]
         # print(query)
         await lel.edit("⚡️")
