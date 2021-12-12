@@ -68,7 +68,7 @@ async def stream(_, message: Message):
     else:
         await callsmusic.pytgcalls.join_group_call(
                 message.chat.id, 
-                InputStream(
+                input_stream(
                     InputAudioStream(
                         file_path,
                     ),
