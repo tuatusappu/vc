@@ -256,8 +256,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️ Support", url="t.me/SHIZUKA_VC_SUPPORT"),
-                    InlineKeyboardButton("📣 Updates", url="t.me/Pratheek_Bots"),
+                    InlineKeyboardButton("🗣️ Support", url="t.me/Starz_support"),
+                    InlineKeyboardButton("📣 Updates", url="t.me/Starz_Bots"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -294,8 +294,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗣️ Support", url="t.me/SHIZUKA_VC_SUPPORT"),
-                    InlineKeyboardButton("📣 Updates", url="t.me/Pratheek_Bots"),
+                        InlineKeyboardButton("🗣️ Support", url="t.me/Starz_support"),
+                    InlineKeyboardButton("📣 Updates", url="t.me/Starz_Bots"),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
                 ]
@@ -357,8 +357,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🗣️ Support", url="t.me/SHIZUKA_VC_SUPPORT"),
-                    InlineKeyboardButton("📣 Updates", url="t.me/Pratheek_Bots"),
+                    InlineKeyboardButton("🗣️ Support", url="t.me/Starz_support"),
+                    InlineKeyboardButton("📣 Updates", url="t.me/Starz_Bots"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
