@@ -14,7 +14,7 @@ async def cbhelps(_, query: CallbackQuery):
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
 
-**🏷 Common Commands For [Pratheek Music Bot](https://t.me/pratheek06).
+**🏷 Common Commands For [Starz Music Bot](https://t.me/starz_bots).
 
 • `/play`<song name> - To play song from. YouTube 
 • `/audio` - Reply to audio file/YouTube link to play
@@ -26,8 +26,8 @@ __× First Add Me To Your Group..
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT"),
-                    InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/Pratheek_Bots")
+                    InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Starz_SUPPORT"),
+                    InlineKeyboardButton(text="📣 Channel", url=f"https://t.me/starz_Bots")
                 ],
                 [
                     InlineKeyboardButton(
@@ -56,10 +56,10 @@ async def cbstart(_, query: CallbackQuery):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",)
                   ],[
                     InlineKeyboardButton(
-                       "🗣️ Support 🗣️", url="https://t.me/SHIZUKA_VC_SUPPORT"
+                       "🗣️ Support 🗣️", url="https://t.me/starz_support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Updates 📣", url="https://t.me/Pratheek_Bots")
+                        "📣 Updates 📣", url="https://t.me/starz_Bots")
                 ],[
                     InlineKeyboardButton(
                         "📚 Commands", callback_data="cbcmds"
