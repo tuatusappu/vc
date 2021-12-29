@@ -1,5 +1,5 @@
-#modified by @piroXpower  
-#copyright to © @piroXpower
+#modified by @ROCKSTAR_XDD
+#copyright to © @ROCKSTAR_XDD
 
 import asyncio
 
